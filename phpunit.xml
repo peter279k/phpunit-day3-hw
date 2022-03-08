@@ -1,0 +1,10 @@
+<phpunit
+  bootstrap="vendor/autoload.php"
+  enforceTimeLimit="true"
+  colors="true">
+  <testsuites>
+    <testsuite name="phpunit-day3-hw">
+      <directory>tests</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
