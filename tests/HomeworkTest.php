@@ -28,6 +28,9 @@ class HomeworkTest extends TestCase
         $this->markTestIncomplete('concatString method is incomplete.');
     }
 
+    /**
+     * @small
+    */
     public function testWait(): void
     {
         $hw = new Homework();
